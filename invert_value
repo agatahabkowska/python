@@ -1,0 +1,19 @@
+#Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
+#[1, 2, 3, 4, 5] --> [-1, -2, -3, -4, -5]
+#[1, -2, 3, -4, 5] --> [-1, 2, -3, 4, -5]
+#[] --> []
+
+#Solution:
+
+def invert(lst):
+    lst2=[]
+    for num in lst:
+        lst2.append(num*-1)
+    return lst2
+
+
+#Or 
+
+
+
+Return [el * -1 for el in lst]
